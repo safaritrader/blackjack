@@ -1,4 +1,11 @@
-# 🃏 Multiplayer Blackjack (Flask + Socket.IO)
+<div align="center">
+  <h1>🃏 Multiplayer Blackjack (Flask + Socket.IO)</h1>
+  <a href="https://github.com/safaritrader/blackjack" target="_blank">
+    <img width="1000" src="https://github.com/safaritrader/blackjack/blob/main/blackjack.jpg">
+  </a>
+</div>
+
+[![ License](https://img.shields.io/badge/BlackJack-1.0.0-blue&?color=red)](https://github.com/safaritrader/blackjack)
 
 A real-time, multiplayer Blackjack game built with **Python (Flask + Flask-SocketIO)** on the backend and **HTML5 Canvas + JavaScript** on the frontend.  
 Players join a shared table, place bets, take turns with timers, and play against an automated dealer following standard Blackjack rules.
