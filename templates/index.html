@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="canvas_container">
+<canvas id="game"></canvas>
+</div>
+<input id="bet" type="number" placeholder="Bet amount">
+<button onclick="bet()">Bet</button>
+<button onclick="action('hit')">Hit</button>
+<button onclick="action('stand')">Stand</button>
+<button onclick="action('double')">Double</button>
+
+<script src="static/socket.io.min.js"></script>
+<script src="/static/game.js"></script>
+</body>
+</html>
